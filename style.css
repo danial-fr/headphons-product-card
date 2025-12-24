@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    user-select: none;
+    font-family: vazir;
+    background-color: rgb(164, 15, 15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 180px;
+}
+
+/* section-card */
+
+.section-card {
+    width: 300px;
+    background-color: #414141;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 15px 40px rgba(33, 8, 255, 0.6);
+    transition: 0.4s;
+    border: 2px solid blue;
+}
+
+img {
+    width: 300px;
+
+}
+
+.section-card:hover {
+
+    transform: translateY(-12px);
+    box-shadow: 20px 20px 20px rgba(33, 8, 255, 0.6);
+}
+
+/* img-box */
+
+.img-box {
+
+    position: relative;
+    overflow: hidden;
+}
+
+.img-box img {
+
+    width: 100%;
+    transition: 0.4s;
+}
+
+
+
+/* span-countd */
+
+.span-countd {
+
+    position: absolute;
+    top: 15px;
+    left: 8px;
+    background-color: rgb(152, 7, 7);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding-top: 7px;
+
+}
+
+/* h3 */
+
+h3 {
+    text-align: center;
+    color: white;
+    margin-top: 3px;
+}
+
+/* conent-box */
+.conent-box {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3px;
+}
+
+/* price-new */
+
+.price-new {
+
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(41, 208, 197);
+    margin-right: 5px;
+}
+
+/* price-old */
+
+.price-old {
+
+    text-decoration: line-through;
+    font-weight: bold;
+    color: white;
+}
+
+/* star */
+
+.star {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    color: yellow;
+    font-size: 16px;
+}
+
+/* btn-card */
+
+.btn-card {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 28px;
+}
+
+button {
+
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    padding: 10px 25px;
+    cursor: pointer;
+    border-radius: 25px;
+    background-color: rgb(64, 64, 216);
+    font-weight: bold;
+    /* font-size: 17px; */
+    transition: all 0.3s;
+
+}
+
+button:hover {
+
+    scale: 1.1;
+    color: white;
+}
