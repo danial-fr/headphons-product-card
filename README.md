@@ -5,16 +5,16 @@ A modern and stylish product card designed for headphones, focused on **music vi
 🎶 **Concept**
 - Inspired by immersive sound and modern design
 - Minimal layout with a premium feel
-
+<hr>
 ✨ **Features**
 - Dark & clean UI
 - Product-focused layout
 - Smooth and simple design
-
+<hr>
 🛠️ **Built With**
 - HTML
 - CSS
-
+<hr>
 🚧 Responsive version may be added in future updates.
 
 🎧 _Feel the sound. Live the beat._
